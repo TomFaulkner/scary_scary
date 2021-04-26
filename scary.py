@@ -17,6 +17,6 @@ def play(sleep_time):
 if __name__ == '__main__':
     now = datetime.now()
     print(f"Called at {now}")
-    if 8 <= now.hour <= 19:
+    if 8 <= now.hour <= 18:
         sleep_time = randint(1, 74)
         play(sleep_time)
